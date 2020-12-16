@@ -1,0 +1,44 @@
+{
+  "name": "gatsbs4ghpages",
+  "private": true,
+  "description": "Gatsbyjs starter blog with bootstrap4 and gh-pages hosting",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"warning: no testfile\" && exit 0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.27.0",
+    "gatsby-plugin-sharp": "^2.9.0",
+    "gatsby-remark-images": "^3.6.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-filesystem": "^2.6.0",
+    "gatsby-transformer-remark": "^2.11.0",
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkbcode/gatsbs4ghpages"
+  },
+  "bugs": {
+    "url": "https://github.com/hkbcode/gatsbs4ghpages/issues"
+  }
+}
