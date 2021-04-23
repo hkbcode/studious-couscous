@@ -1,23 +1,17 @@
 import React from "react"
-import Layout from "../components/Layout"
+import { Button } from 'antd'
 
-const AboutPage = () => {
-  return (
-    <Layout>
-      <h2>About Me</h2>
-      <p>
-        Hemant Bhoi- <i>Fullstack web developer</i>
-      </p>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto
-        nobis ab quaerat minima. Ipsum autem animi aspernatur. Minus, voluptas!
-        Ullam doloremque repellat, quae sapiente quo voluptatum dolores hic
-        odio?
-      </p>
-    </Layout>
-  )
+
+const AboutPage = () =>{
+	return(
+		<div>
+			<h1> This is AntDesign UI on Gatsbyjs </h1>
+			<Button type="primary"> AntDesign </Button>
+		</div>
+	)
 }
 
-export default AboutPage
 
+
+export default AboutPage
